@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.main-body {
+  width: 90%;
+  margin: auto;
+}
+span {
+  color: #ffad5a;
+}
+h1 {
+  font-size: 50px;
+  display: inline;
+}
+.flex-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 20px;
+  padding: 20px 50px;
+}
+.profile-img img {
+  width: 450px;
+  margin: 0 20px;
+}
+a {
+  padding: 10px 40px;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.stay-focused {
+  border-left: 5px solid #ff5959;
+  padding-left: 10px;
+}
+.heading {
+  margin-top: 40px;
+  width: 600px;
+}
+.my-mission {
+  text-align: center;
+}
+
+.mission-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.mission,
+.vision,
+.goals {
+  width: 300px;
+  height: 300px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.mission {
+  background-color: blanchedalmond;
+}
+.vision {
+  background-color: burlywood;
+}
+.goals {
+  background-color: darksalmon;
+}
+
+.section-3 {
+  background-image: url(images/shapes/dream-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.sec3-img img {
+  width: 400px;
+}
+
+.sec3-text {
+  width: 50%;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sec4-img img {
+  width: 400px;
+}
+
+.sec4-text {
+  width: 50%;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer h1 {
+  font-family: "Dancing Script", cursive;
+}
+.section-5 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.sec5-img img {
+  width: 700px;
+}
+
+.sec5-text {
+  width: 50%;
+  margin-top: 80px;
+}
